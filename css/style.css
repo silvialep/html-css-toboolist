@@ -46,11 +46,11 @@ nav h1 {
     padding: 2% 4% 1%;
 }
 
-button {
+#buttons-bar button {
     padding: 10px 20px;
     border-radius: 10px;
     margin: 0 3px 0 0;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 #primo {
@@ -75,6 +75,22 @@ button {
 }
 
 .nested-list {
-    font-weight: 100;
+    font-weight:lighter;
     list-style-type: none;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+ul button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    line-height: 1em;
+    vertical-align: middle;
+    font-weight: 600;
+    font-size: x-small;
+}
+
+.editorial {
+    background-color: rgb(69, 171, 234);
 }

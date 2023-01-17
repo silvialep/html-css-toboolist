@@ -31,12 +31,12 @@ nav h1 {
 }
 
 #buttons-bar {
-    margin: 5% 20% 0.5%;
+    margin: 3% 15% 0.5%;
     border-radius: 5px 5px 0 0;
 }
 
 #contenitore-lista {
-    margin: 0% 20%;
+    margin: 0% 15%;
     border-radius: 0 0 5px 5px;
     font-size: x-large;
 }
@@ -47,10 +47,11 @@ nav h1 {
 }
 
 #buttons-bar button {
-    padding: 10px 20px;
+    padding: 15px 20px;
     border-radius: 10px;
     margin: 0 3px 0 0;
     font-weight: 600;
+    font-size: larger;
 }
 
 #primo {
@@ -70,6 +71,7 @@ nav h1 {
     list-style-position: inside;
     list-style-type:none;
     color: rgb(48, 53, 63);
+    font-size: xx-large;
     font-weight: bold;
     line-height: 2.5em;
 }
@@ -81,6 +83,10 @@ nav h1 {
     margin-bottom: 1.5em;
 }
 
+.nested-list li {
+    padding: 1%;
+}
+
 ul button {
     padding: 10px 20px;
     border-radius: 20px;
@@ -88,9 +94,32 @@ ul button {
     line-height: 1em;
     vertical-align: middle;
     font-weight: 600;
-    font-size: x-small;
+    font-size: normal;
 }
 
 .editorial {
     background-color: rgb(69, 171, 234);
+}
+
+.q1-goals {
+    background-color: rgb(156, 114, 228);
+
+}
+
+.recruiting {
+    background-color: rgb(100, 192, 169);
+
+}
+
+.mobile {
+    background-color: rgb(242, 158, 51);
+
+}
+
+.website {
+    background-color: rgb(216, 99, 161);
+}
+
+.sales {
+    background-color: rgb(176, 201, 38);
 }

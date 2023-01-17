@@ -38,17 +38,19 @@ nav h1 {
 #contenitore-lista {
     margin: 0% 20%;
     border-radius: 0 0 5px 5px;
+    font-size: x-large;
 }
 
 #buttons-bar, #contenitore-lista {
     background-color: white;
-    padding: 2% 5% 1%;
+    padding: 2% 4% 1%;
 }
 
 button {
     padding: 10px 20px;
     border-radius: 10px;
     margin: 0 3px 0 0;
+    font-weight: 500;
 }
 
 #primo {
@@ -62,4 +64,17 @@ button {
     background-color: white;
     color: rgb(199, 205, 210);
     border: 1px solid rgb(199, 205, 210);
+}
+
+#lista-cont {
+    list-style-position: inside;
+    list-style-type:none;
+    color: rgb(48, 53, 63);
+    font-weight: bold;
+    line-height: 2.5em;
+}
+
+.nested-list {
+    font-weight: 100;
+    list-style-type: none;
 }

@@ -25,7 +25,7 @@ body {
 
 header #icona-logo {
     height: 2em;
-    display: inline-block;
+    /* display: inline-block; */
     vertical-align: middle;
 }
 
@@ -51,7 +51,7 @@ header h1 {
     padding: 2% 4% 1%;
 }
 
-#buttons-bar button {
+.btn {
     padding: 15px 20px;
     border-radius: 10px;
     margin: 0 3px 0 0;
@@ -59,14 +59,14 @@ header h1 {
     font-size: larger;
 }
 
-#primo {
+.primo {
     background-color: rgb(71, 173, 241);
     color: white;
-    border: none;
-    display: inline-block;
+    border: rgb(71, 173, 241);
+    /* display: inline-block; */
 }
 
-#secondo {
+.secondo {
     background-color: white;
     color: rgb(199, 205, 210);
     border: 1px solid rgb(199, 205, 210);
